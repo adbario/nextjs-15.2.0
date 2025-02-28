@@ -1,4 +1,4 @@
-language: 'en'
+language: "en"
 early_access: true
 reviews:
   request_changes_workflow: true
@@ -7,7 +7,7 @@ reviews:
   review_status: true
   collapse_walkthrough: false
   path_instructions:
-    - path: 'src/app/**/*'
+    - path: "src/app/**/*"
       instructions: |
         "Ensure the following for Next.js App Router:
         - Use server components by default unless client-side interactivity is required.
@@ -15,7 +15,7 @@ reviews:
         - Implement efficient data fetching with fetch(), getServerSession(), or direct database access in server components.
         - Ensure dynamic routes and parallel routes follow Next.js best practices."
 
-    - path: 'src/components/**/*'
+    - path: "src/components/**/*"
       instructions: |
         "Verify that components:
         - Follow the React Server Components (RSC) paradigm when possible.
@@ -23,28 +23,28 @@ reviews:
         - Use 'use client' only when required for interactivity.
         - Implement reusable UI patterns and modular component structures."
 
-    - path: 'src/lib/**/*'
+    - path: "src/lib/**/*"
       instructions: |
         "Check that:
         - Utility functions are optimized and well-organized.
         - API calls and database queries follow best practices.
         - Server-side utilities are properly used within the App Router architecture."
 
-    - path: 'src/styles/**/*'
+    - path: "src/styles/**/*"
       instructions: |
         "Ensure that styling:
         - Uses Tailwind CSS or other project-approved styling approaches.
         - Follows Next.js-specific best practices, such as avoiding global styles unless necessary.
         - Maintains a consistent design language across components."
 
-    - path: 'src/middleware.ts'
+    - path: "src/middleware.ts"
       instructions: |
         "Ensure that middleware:
         - Properly handles authentication, redirects, or headers when required.
         - Uses `NextResponse` effectively for rewriting, redirecting, or modifying responses.
         - Avoids unnecessary performance bottlenecks."
 
-    - path: 'src/app/api/**/*'
+    - path: "src/app/api/**/*"
       instructions: |
         "Verify API route implementations:
         - Ensure proper use of Route Handlers (`src/app/api/.../route.ts` pattern).
@@ -54,6 +54,6 @@ reviews:
     enabled: true
     drafts: false
     base_branches:
-      - 'main'
+      - "main"
 chat:
   auto_reply: true
