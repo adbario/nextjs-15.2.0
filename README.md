@@ -1,6 +1,16 @@
+<!-- # Awesome CodeRabbit [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/adbario/nextjs-15.2.0)
+
+[CodeRabbit](https://www.coderabbit.ai) is an AI-powered code review tool that helps development teams improve code quality and accelerate the review process. It integrates with popular version control platforms and provides intelligent feedback on code changes.
+
+This curated list covers the best resources, tutorials, and community content related to CodeRabbit 🐰 -->
+
+
+
 # Next.js 15.2 POC with AI-driven contextual feedback by CodeRabbit [CodeRabbit](https://www.coderabbit.ai/)
 
-## Getting Started
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/adbario/nextjs-15.2.0)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
