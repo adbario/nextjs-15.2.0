@@ -1,3 +1,17 @@
+<!-- # Awesome CodeRabbit [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/adbario/nextjs-15.2.0)
+
+[CodeRabbit](https://www.coderabbit.ai) is an AI-powered code review tool that helps development teams improve code quality and accelerate the review process. It integrates with popular version control platforms and provides intelligent feedback on code changes.
+
+This curated list covers the best resources, tutorials, and community content related to CodeRabbit 🐰 -->
+
+
+
+# Next.js 15.2 POC with AI-driven contextual feedback by CodeRabbit [CodeRabbit](https://www.coderabbit.ai/)
+
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/adbario/nextjs-15.2.0)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -5,13 +19,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
